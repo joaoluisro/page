@@ -17,6 +17,9 @@
 -box-shadow: 0 0 5px 5px #191816;
 }
 
+#interests{
+  padding-bottom: 100px;
+}
 
 #profile-pic{
   width: 100%;
@@ -50,5 +53,13 @@
 }
 
 .list-group{
-  font-size: 18pt;
+  font-size: 17pt;
+}
+
+.content{
+  background-color: rgb(254 254 254 / 79%);
+  height: 70vh;
+  color: navy;
+  box-shadow: 0 0 5px 5px #191816;
+  font-size: 16pt;
 }
