@@ -1,0 +1,21 @@
+.wrap{
+  border: 1px solid blue;
+  width: 1400px;
+  height: 800px;
+  padding: 20px;
+  margin: auto;
+}
+
+#canvas-1{
+  width: 1000px;
+  height: 800px;
+  padding: 0px;
+  border: 1px solid green;
+  margin: auto;
+}
+
+#canvas-line{
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="base.css">
+    <title>Trabalho 3</title>
+  </head>
+  <body>
+    <div id="canvas-1">
+      <canvas id="canvas-line"></canvas>
+      <script src="line-refactor.js"></script>
+      <h1 >Processador de Linhas</h1>
+      <form id="form-lados" action="" method="post">
+        Selecione o número de lados do polígono:
+        <select name="dropdown">
+          <option value="3" selected>3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+        </select>
+
+        <input type="submit" name="submit-lados" value="Gerar">
+      </form>
+      <form id="refresh-form" action="" method="post">
+        <input type="submit" name="refresh" value="Limpar">
+
+      </form>
+
+    </div>
+
+  </body>
+</html>
